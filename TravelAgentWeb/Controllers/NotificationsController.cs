@@ -37,7 +37,7 @@ namespace TravelAgentWeb.Controllers
             {
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Valid Webhook!");
-                Console.WriteLine($"Old Price {flightDetailUpdateDto.OldPrice}, New Price {flightDetailUpdateDto.NewPrice}");
+                Console.WriteLine($"Old Price = {flightDetailUpdateDto.OldPrice}, New Price = {flightDetailUpdateDto.NewPrice}");
                 Console.ResetColor();
                 return Ok();
             }
